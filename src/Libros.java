@@ -18,17 +18,13 @@ public class Libros {
     public Libros() {
     }
 
-    public Libros(String titulo, String genero, String idioma, int anioescribio, String ISBN, int aniolibreria, int estado, String persona, int cuentapersona) {
+    public Libros(String titulo, String genero, String idioma, int anioescribio, String ISBN, int aniolibreria) {
         this.titulo = titulo;
         this.genero = genero;
         this.idioma = idioma;
         this.anioescribio = anioescribio;
         this.ISBN = ISBN;
         this.aniolibreria = aniolibreria;
-        this.estado = estado;
-        this.persona = persona;
-        this.cuentapersona = cuentapersona;
-        setEstado(estado);
     }
 
     public ArrayList<String> getAutores() {

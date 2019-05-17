@@ -11,7 +11,8 @@ public class Usuario
     private String contraseña;
     private int adminonormal;
     private String adonor;
-    private ArrayList libros=new ArrayList();
+    private ArrayList<Libros> libros=new ArrayList();
+    private ArrayList<Libros> historial=new ArrayList();
     
     public Usuario() {
     }
