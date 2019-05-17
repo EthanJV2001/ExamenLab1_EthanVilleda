@@ -1,3 +1,6 @@
+
+import java.util.ArrayList;
+
 public class Usuario 
 {
     private int codigo;
@@ -8,6 +11,7 @@ public class Usuario
     private String contraseña;
     private int adminonormal;
     private String adonor;
+    private ArrayList libros=new ArrayList();
     
     public Usuario() {
     }
